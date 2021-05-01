@@ -1,11 +1,9 @@
 import React from "react";
 import { Slide } from "react-slideshow-image";
 import styled from "styled-components";
-import Roll from "react-reveal/Roll";
 const Slideshow = () => {
   return (
     <Container>
-      <Roll>
         <Slide easing="ease">
           <ContainerImage className="each-slide">
             <Image src={"0.jpeg"} />
@@ -47,7 +45,6 @@ const Slideshow = () => {
             <Image src={"13.jpeg"} />,
           </ContainerImage>
         </Slide>
-      </Roll>
     </Container>
   );
 };
