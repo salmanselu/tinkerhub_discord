@@ -79,7 +79,7 @@ const Link = styled.a`
   font-weight: bolder;
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 1.2rem;
+  font-size: 1rem;
 `;
 
 const LinkContainer = styled.div`
@@ -87,7 +87,7 @@ const LinkContainer = styled.div`
   display: grid;
   justify-content: center;
   height: 5vh;
-  width: 400px;
+  width: 300px;
   margin: 0 auto 1.2vh auto;
   border-radius: 20px;
 `;
