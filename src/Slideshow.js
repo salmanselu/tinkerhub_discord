@@ -90,4 +90,10 @@ const LinkContainer = styled.div`
   width: 300px;
   margin: 0 auto 1.2vh auto;
   border-radius: 20px;
+  &&&{
+    :hover{
+    background-color:darkblue;
+    color:wheat;
+  }
+  }
 `;
