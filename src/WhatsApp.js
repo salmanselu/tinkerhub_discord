@@ -9,7 +9,7 @@ export default function WhatsApp() {
         <Image src={"14.jpg"} />
       </Container>
       <Link className="Link" href="http://bit.ly/thkwhatsapp" target="_blank">
-        Join Now
+      http://bit.ly/thkwhatsapp
       </Link>
     </>
   );
@@ -34,4 +34,5 @@ const Link = styled.a`
 const Container = styled.div`
   display: grid;
   place-items: center;
+
 `;
