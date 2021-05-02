@@ -1,6 +1,7 @@
 import React from "react";
 import { Slide } from "react-slideshow-image";
 import styled from "styled-components";
+import WhatsApp from "./WhatsApp";
 const Slideshow = () => {
   return (
     <Container>
@@ -48,6 +49,9 @@ const Slideshow = () => {
         </ContainerImage>
         <ContainerImage className="each-slide">
           <Image src={"13.jpeg"} />,
+        </ContainerImage>
+        <ContainerImage className="each-slide">
+          <WhatsApp/>
         </ContainerImage>
       </Slide>
     </Container>
