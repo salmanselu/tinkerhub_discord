@@ -23,9 +23,9 @@ const Slideshow = () => {
         <ContainerImage className="each-slide">
           <Image src={"4.jpeg"} />,
         </ContainerImage>
-        <ContainerImage className="each-slide">
-          <Image src={"5.jpeg"} />,
-        </ContainerImage>
+//         <ContainerImage className="each-slide">
+//           <Image src={"5.jpeg"} />,
+//         </ContainerImage>
         <ContainerImage className="each-slide">
           <Image src={"6.jpeg"} />,
         </ContainerImage>
