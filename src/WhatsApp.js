@@ -23,11 +23,10 @@ const Link = styled.a`
   z-index: 100;
   align-items: center;
   text-align: center;
-  font-size: 2rem;
+  font-size: 1.2rem;
   display: grid;
   place-items: center;
   text-decoration: none;
-  text-transform: uppercase;
   font-weight: bolder;
 `;
 
