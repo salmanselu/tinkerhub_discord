@@ -1,7 +1,6 @@
 import React from "react";
 import { Slide } from "react-slideshow-image";
 import styled from "styled-components";
-import WhatsApp from "./WhatsApp";
 const Slideshow = () => {
   return (
     <Container>
