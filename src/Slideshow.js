@@ -50,9 +50,6 @@ const Slideshow = () => {
         <ContainerImage className="each-slide">
           <Image src={"13.jpeg"} />,
         </ContainerImage>
-        <ContainerImage className="each-slide">
-          <WhatsApp/>
-        </ContainerImage>
       </Slide>
     </Container>
   );
