@@ -11,44 +11,24 @@ const Slideshow = () => {
       </LinkContainer>
       <Slide easing="ease">
         <ContainerImage className="each-slide">
-          <Image src={"0.jpeg"} />
+          <Image src={"0.png"} />
         </ContainerImage>
         <ContainerImage className="each-slide">
-          <Image src={"1.jpeg"} />,
+          <Image src={"1.png"} />,
         </ContainerImage>
         <ContainerImage className="each-slide">
-          <Image src={"3.jpeg"} />,
+          <Image src={"3.png"} />,
         </ContainerImage>
         <ContainerImage className="each-slide">
-          <Image src={"4.jpeg"} />,
-        </ContainerImage>
-        {/* <ContainerImage className="each-slide">
-          <Image src={"5.jpeg"} />,
-        </ContainerImage> */}
-        <ContainerImage className="each-slide">
-          <Image src={"6.jpeg"} />,
+          <Image src={"4.png"} />,
         </ContainerImage>
         <ContainerImage className="each-slide">
-          <Image src={"7.jpeg"} />,
+          <Image src={"5.png"} />,
         </ContainerImage>
         <ContainerImage className="each-slide">
-          <Image src={"8.jpeg"} />,
+          <Image src={"6.png"} />,
         </ContainerImage>
-        <ContainerImage className="each-slide">
-          <Image src={"9.jpeg"} />,
-        </ContainerImage>
-        <ContainerImage className="each-slide">
-          <Image src={"10.jpeg"} />,
-        </ContainerImage>
-        <ContainerImage className="each-slide">
-          <Image src={"11.jpeg"} />,
-        </ContainerImage>
-        <ContainerImage className="each-slide">
-          <Image src={"12.jpeg"} />,
-        </ContainerImage>
-        <ContainerImage className="each-slide">
-          <Image src={"13.jpeg"} />,
-        </ContainerImage>
+        
       </Slide>
     </Container>
   );
