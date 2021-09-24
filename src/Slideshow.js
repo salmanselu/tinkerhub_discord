@@ -12,6 +12,9 @@ const Slideshow = () => {
           <Image src={"1.webp"} />,
         </ContainerImage>
         <ContainerImage className="each-slide">
+          <Image src={"2.webp"} />,
+        </ContainerImage>
+        <ContainerImage className="each-slide">
           <Image src={"3.webp"} />,
         </ContainerImage>
         <ContainerImage className="each-slide">
