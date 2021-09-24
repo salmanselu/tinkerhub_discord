@@ -6,19 +6,19 @@ const Slideshow = () => {
     <Container>
       <Slide easing="ease">
         <ContainerImage className="each-slide">
-          <Image src={"0.png"} />
+          <Image src={"0.webp"} />
         </ContainerImage>
         <ContainerImage className="each-slide">
-          <Image src={"1.png"} />,
+          <Image src={"1.webp"} />,
         </ContainerImage>
         <ContainerImage className="each-slide">
-          <Image src={"3.png"} />,
+          <Image src={"3.webp"} />,
         </ContainerImage>
         <ContainerImage className="each-slide">
-          <Image src={"4.png"} />,
+          <Image src={"4.webp"} />,
         </ContainerImage>
         <ContainerImage className="each-slide">
-          <Image src={"5.png"} />,
+          <Image src={"5.webp"} />,
         </ContainerImage>
         
         
