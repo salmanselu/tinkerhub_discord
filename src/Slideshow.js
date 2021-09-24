@@ -20,9 +20,7 @@ const Slideshow = () => {
         <ContainerImage className="each-slide">
           <Image src={"5.png"} />,
         </ContainerImage>
-        <ContainerImage className="each-slide">
-          <Image src={"6.png"} />,
-        </ContainerImage>
+        
         
       </Slide>
     </Container>
