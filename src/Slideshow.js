@@ -4,11 +4,6 @@ import styled from "styled-components";
 const Slideshow = () => {
   return (
     <Container>
-      <LinkContainer>
-        <Link href="https://join.tinkerhub.org/" target="_blank">
-          join.tinkerhub.org
-        </Link>
-      </LinkContainer>
       <Slide easing="ease">
         <ContainerImage className="each-slide">
           <Image src={"0.png"} />
@@ -53,27 +48,4 @@ const ContainerImage = styled.div`
   justify-content: center;
   align-items: center;
 `;
-const Link = styled.a`
-  color: wheat;
-  padding: 8px;
-  font-weight: bolder;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-size: 1rem;
-`;
 
-const LinkContainer = styled.div`
-  background-color: gray;
-  display: grid;
-  justify-content: center;
-  height: 5vh;
-  width: 300px;
-  margin: 0 auto 1.2vh auto;
-  border-radius: 20px;
-  &&&{
-    :hover{
-    background-color:darkblue;
-    color:wheat;
-  }
-  }
-`;
