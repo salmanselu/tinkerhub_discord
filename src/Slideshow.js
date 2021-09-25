@@ -23,6 +23,9 @@ const Slideshow = () => {
         <ContainerImage className="each-slide">
           <Image src={"5.webp"} />,
         </ContainerImage>
+        <ContainerImage className="each-slide">
+          <Image src={"6.webp"} />,
+        </ContainerImage>
         
         
       </Slide>
